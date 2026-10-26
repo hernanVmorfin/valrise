@@ -1,0 +1,86 @@
+[
+  {
+    "name": "valrise-full-color",
+    "layout": "full",
+    "variant": "color",
+    "width": 1635,
+    "height": 460
+  },
+  {
+    "name": "valrise-full-black",
+    "layout": "full",
+    "variant": "black",
+    "width": 1635,
+    "height": 460
+  },
+  {
+    "name": "valrise-full-reverse",
+    "layout": "full",
+    "variant": "reverse",
+    "width": 1635,
+    "height": 460
+  },
+  {
+    "name": "valrise-header-color",
+    "layout": "header",
+    "variant": "color",
+    "width": 1635,
+    "height": 345
+  },
+  {
+    "name": "valrise-header-black",
+    "layout": "header",
+    "variant": "black",
+    "width": 1635,
+    "height": 345
+  },
+  {
+    "name": "valrise-header-reverse",
+    "layout": "header",
+    "variant": "reverse",
+    "width": 1635,
+    "height": 345
+  },
+  {
+    "name": "valrise-wordmark-color",
+    "layout": "wordmark",
+    "variant": "color",
+    "width": 1135,
+    "height": 315
+  },
+  {
+    "name": "valrise-wordmark-black",
+    "layout": "wordmark",
+    "variant": "black",
+    "width": 1135,
+    "height": 315
+  },
+  {
+    "name": "valrise-wordmark-reverse",
+    "layout": "wordmark",
+    "variant": "reverse",
+    "width": 1135,
+    "height": 315
+  },
+  {
+    "name": "valrise-monogram-color",
+    "layout": "monogram",
+    "variant": "color",
+    "width": 550,
+    "height": 385
+  },
+  {
+    "name": "valrise-monogram-black",
+    "layout": "monogram",
+    "variant": "black",
+    "width": 550,
+    "height": 385
+  },
+  {
+    "name": "valrise-monogram-reverse",
+    "layout": "monogram",
+    "variant": "reverse",
+    "width": 550,
+    "height": 385
+  }
+]

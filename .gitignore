@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+.superpowers/
+.wrangler/
+dist/
+output/playwright/
+worker-site/.impeccable/review/

@@ -1,0 +1,15 @@
+.valrise-inquiry { --form-line: rgba(24, 26, 29, .25); }
+.valrise-inquiry form { display: grid; gap: 1.5rem; }
+.valrise-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.valrise-field { display: grid; gap: .45rem; }
+.valrise-field label, .valrise-speaking-fields legend { font-size: .76rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+.valrise-field small { color: #686a6d; }
+.valrise-field :where(input, select, textarea) { width: 100%; box-sizing: border-box; border: 1px solid var(--form-line); border-radius: 0; background: #fff; color: #181a1d; padding: .9rem 1rem; font: inherit; }
+.valrise-field :where(input, select, textarea):focus-visible { outline: 3px solid #3da2ef; outline-offset: 2px; }
+.valrise-speaking-fields { margin: .5rem 0 0; padding: 1.5rem; border: 1px solid var(--form-line); }
+.valrise-speaking-fields legend { padding: 0 .5rem; }
+.valrise-notice { padding: 1rem; border-left: 4px solid #176daa; background: #eef7fd; }
+.valrise-notice--error { border-color: #9b2c2c; background: #fff3f3; }
+.valrise-honeypot { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+.valrise-inquiry button { justify-self: start; border: 0; border-radius: 0; padding: .95rem 1.4rem; background: #176daa; color: #fff; font: inherit; font-size: .8125rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; }
+@media (max-width: 640px) { .valrise-form-grid { grid-template-columns: 1fr; } }

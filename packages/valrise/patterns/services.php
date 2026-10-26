@@ -1,0 +1,8 @@
+<?php
+/**
+ * Title: Advisory services
+ * Slug: valrise/services
+ * Categories: services
+ */
+?>
+<!-- wp:group {"align":"full","className":"valrise-section valrise-services","layout":{"type":"constrained"}} --><div class="wp-block-group alignfull valrise-section valrise-services"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} --><div class="wp-block-group alignwide"><!-- wp:heading {"level":2,"fontSize":"heading"} --><h2 class="wp-block-heading has-heading-font-size">Advisory built around the decision in front of you.</h2><!-- /wp:heading --><!-- wp:paragraph --><p><a href="<?php echo esc_url( home_url( '/consulting/' ) ); ?>">Explore consulting →</a></p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:columns {"align":"wide","className":"valrise-service-row"} --><div class="wp-block-columns alignwide valrise-service-row"><!-- wp:column --><div class="wp-block-column"><p class="valrise-service-number">01</p><h3 class="wp-block-heading">Executive Advisory</h3><p>Private advisory for strategic clarity, consequential decisions, growth, and leadership transitions.</p></div><!-- /wp:column --><!-- wp:column --><div class="wp-block-column"><p class="valrise-service-number">02</p><h3 class="wp-block-heading">Leadership Development</h3><p>Focused development for executive presence, influence, decision-making, and leading through change.</p></div><!-- /wp:column --><!-- wp:column --><div class="wp-block-column"><p class="valrise-service-number">03</p><h3 class="wp-block-heading">Women’s Leadership</h3><p>A signature specialty supporting confidence, visibility, influence, and advancement into greater responsibility.</p></div><!-- /wp:column --></div><!-- /wp:columns --></div><!-- /wp:group -->

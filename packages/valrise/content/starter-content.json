@@ -1,0 +1,69 @@
+[
+  {
+    "seed_key": "page-home",
+    "title": "Home",
+    "slug": "home",
+    "status": "publish",
+    "template": "front-page",
+    "excerpt": "Executive advisory and leadership development for founders, business owners, and leaders navigating their next chapter.",
+    "content": "<!-- wp:pattern {\"slug\":\"valrise/hero\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/audience\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/services\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/founder\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/approach\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/speaking\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/insights\"} /-->\n<!-- wp:pattern {\"slug\":\"valrise/consultation\"} /-->"
+  },
+  {
+    "seed_key": "page-about",
+    "title": "About Valeria",
+    "slug": "about-valeria",
+    "status": "publish",
+    "excerpt": "The perspective behind VALRISE Consulting.",
+    "content": "<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-page-intro\"} --><div class=\"wp-block-group alignwide valrise-page-intro\"><!-- wp:paragraph {\"className\":\"valrise-eyebrow\"} --><p class=\"valrise-eyebrow\">About Valeria</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":1,\"fontSize\":\"display\"} --><h1 class=\"wp-block-heading has-display-font-size\">Perspective shaped by responsibility, reinvention, and the work of leading well.</h1><!-- /wp:heading --><!-- wp:paragraph {\"fontSize\":\"lead\"} --><p class=\"has-lead-font-size\">Valeria Mogildea is the founder of VALRISE Consulting, an executive advisory and leadership development firm for leaders navigating consequential decisions and meaningful transition.</p><!-- /wp:paragraph --></div><!-- /wp:group -->\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"valrise-section\"} --><div class=\"wp-block-columns alignwide valrise-section\"><!-- wp:column {\"width\":\"34%\"} --><div class=\"wp-block-column\" style=\"flex-basis:34%\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">A practical point of view</h2><!-- /wp:heading --></div><!-- /wp:column --><!-- wp:column --><div class=\"wp-block-column\"><!-- wp:paragraph {\"fontSize\":\"lead\"} --><p class=\"has-lead-font-size\">VALRISE is built on a simple belief: the strongest leadership work connects personal clarity to practical business judgment.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>Valeria’s perspective is entrepreneurial, direct, and grounded in the realities leaders carry. She helps clients examine the decision beneath the noise, communicate with greater intention, and move forward without losing sight of the people affected.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>Her work serves executives, founders, business owners, and emerging leaders. Women’s advancement is a signature specialty within a broader commitment to strong, responsible leadership.</p><!-- /wp:paragraph --></div><!-- /wp:column --></div><!-- /wp:columns -->\n<!-- wp:group {\"align\":\"wide\",\"backgroundColor\":\"ivory\",\"className\":\"valrise-values\"} --><div class=\"wp-block-group alignwide valrise-values has-ivory-background-color has-background\"><!-- wp:heading {\"level\":2,\"fontSize\":\"heading\"} --><h2 class=\"wp-block-heading has-heading-font-size\">How the work is approached</h2><!-- /wp:heading --><!-- wp:columns --><div class=\"wp-block-columns\"><!-- wp:column --><div class=\"wp-block-column\"><h3 class=\"wp-block-heading\">Clarity</h3><p>Name what matters before deciding what to do.</p></div><!-- /wp:column --><!-- wp:column --><div class=\"wp-block-column\"><h3 class=\"wp-block-heading\">Candor</h3><p>Make room for honest perspective without losing respect or discretion.</p></div><!-- /wp:column --><!-- wp:column --><div class=\"wp-block-column\"><h3 class=\"wp-block-heading\">Practicality</h3><p>Translate insight into decisions, communication, and useful action.</p></div><!-- /wp:column --></div><!-- /wp:columns --></div><!-- /wp:group -->\n<!-- wp:pattern {\"slug\":\"valrise/consultation\"} /-->"
+  },
+  {
+    "seed_key": "page-consulting",
+    "title": "Consulting",
+    "slug": "consulting",
+    "status": "publish",
+    "excerpt": "Private executive advisory and leadership development for consequential moments.",
+    "content": "<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-page-intro\"} --><div class=\"wp-block-group alignwide valrise-page-intro\"><p class=\"valrise-eyebrow\">Consulting</p><h1 class=\"wp-block-heading has-display-font-size\">Focused advisory for the decisions that shape what comes next.</h1><p class=\"has-lead-font-size\">VALRISE creates thoughtful space for leaders to examine complexity, sharpen judgment, and lead the next move with conviction.</p></div><!-- /wp:group -->\n<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-offering\"} --><div class=\"wp-block-group alignwide valrise-offering\"><p class=\"valrise-service-number\">01 / Executive Advisory</p><h2 class=\"wp-block-heading has-heading-font-size\">Private perspective for consequential decisions.</h2><div class=\"wp-block-columns\"><div class=\"wp-block-column\"><h3>Designed for</h3><p>CEOs, founders, entrepreneurs, and business owners navigating growth, transition, or a decision with lasting implications.</p></div><div class=\"wp-block-column\"><h3>Situations addressed</h3><p>Strategic clarity, competing priorities, leadership transitions, organizational choices, and the next chapter of a business.</p></div><div class=\"wp-block-column\"><h3>Possible formats</h3><p>Private advisory conversations or a focused series of sessions, shaped after an initial consultation.</p></div></div></div><!-- /wp:group -->\n<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-offering\"} --><div class=\"wp-block-group alignwide valrise-offering\"><p class=\"valrise-service-number\">02 / Leadership Development</p><h2 class=\"wp-block-heading has-heading-font-size\">Strengthen how leadership is understood and practiced.</h2><div class=\"wp-block-columns\"><div class=\"wp-block-column\"><h3>Designed for</h3><p>Senior and high-potential leaders preparing for broader scope, greater visibility, or organizational change.</p></div><div class=\"wp-block-column\"><h3>Situations addressed</h3><p>Executive presence, influence, decision-making, communication, accountability, and leading through change.</p></div><div class=\"wp-block-column\"><h3>Possible formats</h3><p>Individual development or a tailored engagement for an organization or leadership group.</p></div></div></div><!-- /wp:group -->\n<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-offering\"} --><div class=\"wp-block-group alignwide valrise-offering\"><p class=\"valrise-service-number\">03 / Women’s Leadership</p><h2 class=\"wp-block-heading has-heading-font-size\">Advance with confidence, visibility, and influence.</h2><div class=\"wp-block-columns\"><div class=\"wp-block-column\"><h3>Designed for</h3><p>Women moving toward executive, ownership, or board-level responsibility, and organizations investing in their advancement.</p></div><div class=\"wp-block-column\"><h3>Situations addressed</h3><p>Leadership voice, strategic visibility, stakeholder influence, confidence in high-stakes settings, and expanded responsibility.</p></div><div class=\"wp-block-column\"><h3>Possible formats</h3><p>Private development or an organizational program defined around the intended audience and context.</p></div></div></div><!-- /wp:group -->\n<!-- wp:pattern {\"slug\":\"valrise/consultation\"} /-->"
+  },
+  {
+    "seed_key": "page-speaking",
+    "title": "Speaking",
+    "slug": "speaking",
+    "status": "publish",
+    "excerpt": "Leadership and entrepreneurship topics for organizations, founder communities, and events.",
+    "content": "<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-page-intro\"} --><div class=\"wp-block-group alignwide valrise-page-intro\"><p class=\"valrise-eyebrow\">Speaking</p><h1 class=\"wp-block-heading has-display-font-size\">A grounded voice for leadership conversations that matter now.</h1><p class=\"has-lead-font-size\">Valeria Mogildea is available for leadership events, organizations, and founder communities seeking practical perspective on change, influence, and reinvention.</p><div class=\"wp-block-buttons\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"/contact/?inquiry=speaking\">Invite Valeria to speak</a></div></div></div><!-- /wp:group -->\n<!-- wp:group {\"align\":\"wide\",\"className\":\"valrise-topics\"} --><div class=\"wp-block-group alignwide valrise-topics\"><p class=\"valrise-eyebrow\">Proposed topics</p><div class=\"wp-block-columns\"><div class=\"wp-block-column\"><h2>Leadership through change</h2><p>How leaders create direction when circumstances, expectations, or the organization itself are moving.</p><p><strong>Possible takeaways:</strong> steadier decision-making, clearer communication, and practical ways to lead amid uncertainty.</p></div><div class=\"wp-block-column\"><h2>Entrepreneurial resilience and reinvention</h2><p>A practical look at adapting identity, judgment, and priorities across chapters of business ownership.</p><p><strong>Possible takeaways:</strong> recognizing inflection points, evaluating the next move, and separating reinvention from reaction.</p></div></div><div class=\"wp-block-columns\"><div class=\"wp-block-column\"><h2>Women, influence, and executive presence</h2><p>How women can strengthen visibility and influence while leading with credibility and an authentic point of view.</p><p><strong>Possible takeaways:</strong> communicating authority, navigating consequential rooms, and building strategic visibility.</p></div><div class=\"wp-block-column\"><h2>Navigating the next chapter in business and leadership</h2><p>How leaders can approach transition with clarity when the familiar path no longer fits the opportunity ahead.</p><p><strong>Possible takeaways:</strong> defining what matters now, evaluating tradeoffs, and moving with intention.</p></div></div></div><!-- /wp:group -->\n<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"brand-blue\",\"className\":\"valrise-section\"} --><div class=\"wp-block-group alignfull valrise-section has-brand-blue-background-color has-background\"><div class=\"wp-block-group alignwide\"><h2 class=\"wp-block-heading has-heading-font-size\">Bring a relevant leadership conversation to your audience.</h2><p><a href=\"/contact/?inquiry=speaking\"><strong>Invite Valeria to speak →</strong></a></p></div></div><!-- /wp:group -->"
+  },
+  {
+    "seed_key": "page-insights",
+    "title": "Insights",
+    "slug": "insights",
+    "status": "publish",
+    "excerpt": "Perspectives on leadership, business decisions, influence, and change.",
+    "content": ""
+  },
+  {
+    "seed_key": "page-contact",
+    "title": "Book a Consultation",
+    "slug": "contact",
+    "status": "publish",
+    "excerpt": "Begin a conversation with VALRISE Consulting.",
+    "content": "<!-- wp:columns {\"align\":\"wide\",\"className\":\"valrise-contact-layout\"} --><div class=\"wp-block-columns alignwide valrise-contact-layout\"><!-- wp:column {\"width\":\"42%\"} --><div class=\"wp-block-column\" style=\"flex-basis:42%\"><p class=\"valrise-eyebrow\">Book a consultation</p><h1 class=\"wp-block-heading has-heading-font-size\">Begin with the decision or transition in front of you.</h1><p class=\"has-lead-font-size\">Share a little about your situation and the kind of conversation that would be useful. For an event or organization, choose Speaking inquiry.</p></div><!-- /wp:column --><!-- wp:column --><div class=\"wp-block-column\">[valrise_inquiry_form]</div><!-- /wp:column --></div><!-- /wp:columns -->"
+  },
+  {
+    "seed_key": "page-privacy",
+    "title": "Privacy",
+    "slug": "privacy",
+    "status": "draft",
+    "internal_status": "legal-review-required",
+    "excerpt": "How VALRISE Consulting handles information submitted through this website.",
+    "content": "<!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Information you choose to provide</h2><!-- /wp:heading --><!-- wp:paragraph --><p>When you submit an inquiry, the website processes the details you provide so VALRISE Consulting can consider and respond to your message.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Website information</h2><!-- /wp:heading --><!-- wp:paragraph --><p>The website may process basic technical information needed for security, reliable operation, and aggregate measurement.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Questions</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Use the contact page for questions about information submitted through this website.</p><!-- /wp:paragraph -->"
+  },
+  {
+    "seed_key": "page-terms",
+    "title": "Terms",
+    "slug": "terms",
+    "status": "draft",
+    "internal_status": "legal-review-required",
+    "excerpt": "Terms governing use of the VALRISE Consulting website.",
+    "content": "<!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Website information</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Content on this website is provided for general informational purposes. Visiting the website or submitting an inquiry does not by itself create an advisory relationship.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Intellectual property</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Unless otherwise stated, website content and brand materials belong to their respective owner and may not be reused without permission.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Contact</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Questions about these terms may be submitted through the contact page.</p><!-- /wp:paragraph -->"
+  }
+]

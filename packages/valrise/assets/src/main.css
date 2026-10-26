@@ -1,0 +1,137 @@
+@import "tailwindcss";
+@source "../../**/*.php";
+@source "../../**/*.html";
+
+:root {
+  --valrise-blue: #3da2ef;
+  --valrise-action: #176daa;
+  --valrise-ivory: #f5f1e8;
+  --valrise-paper: #fcfaf5;
+  --valrise-charcoal: #181a1d;
+  --valrise-neutral: #686a6d;
+  --valrise-line: color-mix(in srgb, var(--valrise-charcoal) 18%, transparent);
+}
+
+html { scroll-behavior: smooth; }
+body { overflow-x: clip; }
+img { height: auto; }
+
+.screen-reader-text:focus,
+.valrise-skip-link:focus {
+  clip: auto !important;
+  clip-path: none;
+  height: auto;
+  width: auto;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100000;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  color: var(--valrise-charcoal);
+}
+
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid var(--valrise-blue);
+  outline-offset: 4px;
+}
+
+.valrise-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.valrise-rule { border-top: 1px solid var(--valrise-line); }
+
+.valrise-site-header {
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid var(--valrise-line);
+  background: color-mix(in srgb, var(--valrise-paper) 94%, transparent);
+}
+
+.valrise-site-header > .wp-block-group {
+  min-height: 6.5rem;
+}
+
+.valrise-brand { margin: 0; flex: 0 0 auto; }
+.valrise-brand img { display: block; }
+
+.valrise-hero,
+.valrise-section {
+  padding-top: clamp(4.5rem, 9vw, 9rem);
+  padding-bottom: clamp(4.5rem, 9vw, 9rem);
+}
+
+.valrise-hero {
+  min-height: min(780px, calc(100svh - 6.5rem));
+  display: grid;
+  align-content: space-between;
+  border-bottom: 1px solid var(--valrise-line);
+}
+
+.valrise-hero h1 { max-width: 12ch; }
+.valrise-hero-tagline { margin-top: clamp(4rem, 12vw, 10rem); }
+
+.valrise-inline-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--valrise-line);
+}
+
+.valrise-inline-list li {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--valrise-line);
+}
+
+.valrise-service-row { margin-top: clamp(3rem, 7vw, 7rem); }
+.valrise-service-row > .wp-block-column { padding-top: 1.5rem; border-top: 1px solid var(--valrise-charcoal); }
+.valrise-service-number, .valrise-step-number { color: var(--valrise-action); font-size: 0.75rem; font-weight: 750; letter-spacing: 0.12em; }
+
+.valrise-portrait-frame {
+  min-height: 34rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,.28);
+  background: linear-gradient(145deg, rgba(61,162,239,.18), rgba(255,255,255,.03));
+}
+
+.valrise-portrait-frame span {
+  font-family: var(--wp--preset--font-family--editorial);
+  font-size: clamp(6rem, 14vw, 11rem);
+  line-height: .8;
+  color: var(--valrise-blue);
+}
+
+.valrise-portrait-frame p { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; }
+.valrise-step { padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--valrise-line); }
+.valrise-insight-card { padding-top: 1.25rem; border-top: 1px solid var(--valrise-line); }
+.valrise-site-footer a { color: #fff; }
+.valrise-site-footer .wp-block-separator { border-color: rgba(255,255,255,.25); }
+
+@media (max-width: 900px) {
+  .valrise-header-cta { display: none; }
+  .valrise-hero { min-height: auto; }
+  .valrise-portrait-frame { min-height: 24rem; }
+}
+
+@media (max-width: 620px) {
+  .valrise-inline-list { grid-template-columns: 1fr; }
+  .valrise-brand img { width: 176px !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T05:51:17Z",
+  "title": "Design System: VALRISE Consulting",
+  "extensions": {
+    "colorMeta": {
+      "brand-blue": {
+        "role": "primary",
+        "displayName": "VALRISE Blue",
+        "canonical": "#3DA2EF",
+        "tonalRamp": ["#062238", "#0A3B60", "#0E578A", "#1474B5", "#2190DA", "#3DA2EF", "#91CDF7", "#E6F5FD"]
+      },
+      "action-blue": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#145F96",
+        "tonalRamp": ["#061A29", "#0A2D47", "#0E4268", "#145F96", "#2D7DB5", "#63A5D1", "#A9CDE5", "#EDF6FB"]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#181A1D",
+        "tonalRamp": ["#111214", "#181A1D", "#313438", "#4C5055", "#70757A", "#A1A5A8", "#D0D2D3", "#F3F3F2"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#FCFAF5",
+        "tonalRamp": ["#28251F", "#4B463B", "#716A5A", "#9A927F", "#C2BBAA", "#DFD9CC", "#F2EEE5", "#FCFAF5"]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Editorial Ivory",
+        "canonical": "#F2EDE3",
+        "tonalRamp": ["#27231D", "#494238", "#6C6355", "#918777", "#B8AE9E", "#D5CDBF", "#E6DFD4", "#F8F4ED"]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#595D62",
+        "tonalRamp": ["#171819", "#292B2E", "#404347", "#595D62", "#797E83", "#A2A6A9", "#CFD1D3", "#F3F4F4"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Charcoal Hairline",
+        "canonical": "rgba(24, 26, 29, 0.19)",
+        "tonalRamp": ["rgba(24, 26, 29, 0.88)", "rgba(24, 26, 29, 0.72)", "rgba(24, 26, 29, 0.56)", "rgba(24, 26, 29, 0.40)", "rgba(24, 26, 29, 0.28)", "rgba(24, 26, 29, 0.19)", "rgba(24, 26, 29, 0.10)", "rgba(24, 26, 29, 0.04)"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#262626", "#484848", "#6B6B6B", "#919191", "#B7B7B7", "#D7D7D7", "#EEEEEE", "#FFFFFF"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Homepage and page-defining thesis statements." },
+      "headline": { "displayName": "Headline", "purpose": "Major section theses and closing questions." },
+      "title": { "displayName": "Title", "purpose": "Service propositions and compact editorial headings." },
+      "body": { "displayName": "Body", "purpose": "Explanatory and functional copy." },
+      "lead": { "displayName": "Lead", "purpose": "Introductory copy between a thesis and its supporting detail." },
+      "label": { "displayName": "Label", "purpose": "Metadata, step numbers, navigation controls, and form labels." }
+    },
+    "shadows": [
+      { "name": "validation-ring", "value": "0 0 0 1px #9D2020", "purpose": "Error-state reinforcement only; never use as elevation." }
+    ],
+    "motion": [
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Collapse animation and transition duration when the user prefers reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "navigation-collapse", "value": "900px" },
+      { "name": "single-column", "value": "620px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The default consultation and form action on light or dark editorial fields.",
+      "html": "<button class=\"ds-button-primary\">BOOK A CONSULTATION</button>",
+      "css": ".ds-button-primary { display:inline-flex; min-height:3.25rem; align-items:center; justify-content:center; border:1px solid var(--action, #145F96); border-radius:0; background:var(--action, #145F96); color:#fff; padding:.85rem 1.25rem; font-family:Manrope, sans-serif; font-size:.76rem; font-weight:750; letter-spacing:.09em; text-transform:uppercase; cursor:pointer; } .ds-button-primary:hover { background:var(--ink, #181A1D); border-color:var(--ink, #181A1D); } .ds-button-primary:focus-visible { outline:3px solid var(--blue, #3DA2EF); outline-offset:4px; } .ds-button-primary:disabled { background:#A8ACB0; border-color:#A8ACB0; cursor:not-allowed; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "A secondary action that keeps the surrounding paper or color field visible.",
+      "html": "<button class=\"ds-button-ghost\">EXPLORE SPEAKING</button>",
+      "css": ".ds-button-ghost { display:inline-flex; min-height:3.25rem; align-items:center; justify-content:center; border:1px solid var(--ink, #181A1D); border-radius:0; background:transparent; color:var(--ink, #181A1D); padding:.85rem 1.25rem; font-family:Manrope, sans-serif; font-size:.76rem; font-weight:750; letter-spacing:.09em; text-transform:uppercase; cursor:pointer; } .ds-button-ghost:hover { background:var(--ink, #181A1D); color:#fff; } .ds-button-ghost:focus-visible { outline:3px solid var(--blue, #3DA2EF); outline-offset:4px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A square, high-clarity field for consultation intake.",
+      "html": "<label class=\"ds-field\"><span>NAME *</span><input type=\"text\" placeholder=\"Your name\"></label>",
+      "css": ".ds-field { display:grid; gap:.45rem; color:var(--ink, #181A1D); font-family:Manrope, sans-serif; } .ds-field span { font-size:.73rem; font-weight:750; letter-spacing:.08em; text-transform:uppercase; } .ds-field input { width:100%; border:1px solid var(--line, rgba(24,26,29,.19)); border-radius:0; background:#fff; color:var(--ink, #181A1D); padding:.9rem 1rem; font:inherit; } .ds-field input:focus-visible { outline:3px solid var(--blue, #3DA2EF); outline-offset:4px; } .ds-field input[aria-invalid=\"true\"] { border-color:#9D2020; box-shadow:0 0 0 1px #9D2020; }"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Compact orientation links with a deeper-blue current-page state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#\">About</a><a href=\"#\" aria-current=\"page\">Consulting</a><a href=\"#\">Speaking</a></nav>",
+      "css": ".ds-nav { display:flex; gap:2rem; align-items:center; color:var(--ink, #181A1D); font-family:Manrope, sans-serif; font-size:.77rem; font-weight:650; letter-spacing:.04em; } .ds-nav a { color:inherit; text-decoration:none; } .ds-nav a:hover, .ds-nav a[aria-current=\"page\"] { color:var(--action, #145F96); } .ds-nav a:focus-visible { outline:3px solid var(--blue, #3DA2EF); outline-offset:4px; }"
+    },
+    {
+      "name": "Editorial Service Row",
+      "kind": "card",
+      "description": "A rule-led service proposition that replaces the conventional floating card.",
+      "html": "<article class=\"ds-service-row\"><span>EXECUTIVE ADVISORY</span><h3>Private perspective for consequential decisions.</h3><p>Strategic clarity for leaders navigating growth, transition, or a choice with lasting implications.</p></article>",
+      "css": ".ds-service-row { display:grid; grid-template-columns:.35fr 1fr 1.15fr; gap:2.5rem; padding:2rem 0 3.5rem; border-top:1px solid var(--ink, #181A1D); border-bottom:1px solid var(--line, rgba(24,26,29,.19)); color:var(--ink, #181A1D); } .ds-service-row span { font-family:Manrope, sans-serif; font-size:.72rem; font-weight:700; letter-spacing:.13em; line-height:1.4; } .ds-service-row h3 { margin:0; font-family:Newsreader, Georgia, serif; font-size:clamp(1.65rem, 2.5vw, 2.65rem); font-weight:420; letter-spacing:-.035em; line-height:.98; } .ds-service-row p { margin:.25rem 0 0; max-width:72ch; font-family:Manrope, sans-serif; line-height:1.65; }"
+    },
+    {
+      "name": "Hero Horizon",
+      "kind": "custom",
+      "description": "The signature blue line and italic statement anchoring the homepage thesis.",
+      "html": "<div class=\"ds-hero-foot\"><div class=\"ds-hero-line\"></div><div class=\"ds-signature\">Your next level starts here.</div></div>",
+      "css": ".ds-hero-foot { display:grid; grid-template-columns:1fr auto; gap:2rem; align-items:end; color:var(--ink, #181A1D); } .ds-hero-line { height:.55rem; background:var(--blue, #3DA2EF); } .ds-signature { font-family:Newsreader, Georgia, serif; font-size:clamp(1.25rem, 2vw, 1.8rem); font-style:italic; white-space:nowrap; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Executive Editorial",
+    "overview": "VALRISE feels like a considered leadership journal made actionable: warm paper, decisive charcoal, disciplined blue, and generous space give consequential ideas room to land. The experience is calm and executive rather than luxurious or theatrical; it persuades through clarity, proportion, and composure.\n\nThe system pairs expressive editorial scale with practical interface behavior. Large Newsreader statements lead, Manrope carries decisions and detail, and fine rules organize information without turning it into a dashboard. Blue appears as a deliberate signal—a horizon, an action, or a full editorial field—not as ambient decoration.",
+    "keyCharacteristics": [
+      "Warm paper and ivory surfaces grounded by near-black charcoal.",
+      "Self-hosted Newsreader display type paired with self-hosted Manrope interface type.",
+      "Oversized, balanced headlines with compact uppercase labels.",
+      "Sharp corners, fine rules, and flat tonal sections instead of ornamental effects.",
+      "Wide responsive shells and asymmetric grids that collapse cleanly to one column.",
+      "Restrained blue used for identity, action, focus, and the signature horizon line."
+    ],
+    "rules": [
+      { "name": "The Blue Horizon Rule", "body": "Use VALRISE Blue as a decisive line, field, focus signal, or identity moment; use Action Blue for small interactive text and controls that require stronger contrast.", "section": "colors" },
+      { "name": "The Paper Majority Rule", "body": "Paper and ivory remain the dominant visual field. Charcoal and blue sections are punctuation, not a repeating stripe pattern.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "Newsreader carries ideas; Manrope carries orientation, evidence, and action. Do not introduce a third type voice.", "section": "typography" },
+      { "name": "The Quiet Weight Rule", "body": "Create hierarchy through scale, spacing, and contrast before adding heavier weights; display type remains poised at weight 420.", "section": "typography" },
+      { "name": "The Rule-Led Grid Rule", "body": "Use borders and alignment to make relationships visible. Do not convert editorial groupings into floating cards when a shared rule can do the work.", "section": "layout" },
+      { "name": "The Tactile Brand-World Rule", "body": "Lead founder and speaking surfaces with approved photographs of Valeria, using authentic portrait or event context rather than generic consulting imagery. Apply only restrained tonal finishing—natural skin, softened saturation, charcoal depth, warm ivory, and disciplined blue—and never change her identity or imply that an event photograph shows an on-stage appearance. Stationery remains supporting brand-world imagery, not a substitute for a real portrait. Prefer one strong image per page or section, crop responsively with intentional object-fit, write honest alt text, serve optimized web formats, and lazy-load below-the-fold images.", "section": "layout" },
+      { "name": "The Flat Authority Rule", "body": "Surfaces stay flat at rest. Use tonal contrast and rules for hierarchy; reserve outlines for focus, validation, and boundaries.", "section": "elevation" },
+      { "name": "The Sharp Edge Rule", "body": "Border radius is zero across interactive and structural components; preserve the editorial precision of the grid.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep the primary action copy direct and dignified, led by “Book a consultation.”",
+      "Do let one large editorial statement dominate a viewport and give supporting copy a quieter measure.",
+      "Do use Paper, Ivory, Blue, and Charcoal as flat fields separated by space or one-pixel rules.",
+      "Do preserve visible keyboard focus, 44px mobile targets, semantic disclosure navigation, and reduced-motion behavior.",
+      "Do use only supported content; typography and composition must carry persuasion when proof is unavailable."
+    ],
+    "donts": [
+      "Don't add rounded cards, pills, soft shadows, glass effects, gradients, or generic coaching-site decoration.",
+      "Don't use VALRISE Blue for every interaction; Action Blue exists for small text and control contrast.",
+      "Don't introduce testimonial, client-logo, event-history, quantified-result, or portrait modules beyond the user-supplied and approved assets without supporting evidence.",
+      "Don't crowd large Newsreader headings with competing labels, badges, or multiple equal-weight calls to action.",
+      "Don't replace rule-led editorial groupings with repetitive floating cards."
+    ]
+  }
+}

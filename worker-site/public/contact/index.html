@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcfaf5">
+  <title>Book a consultation — VALRISE Consulting</title>
+  <meta name="description" content="Begin a conversation with VALRISE Consulting.">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script type="module" src="/assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="VALRISE Consulting home"><img src="/assets/brand/valrise-header-color.svg" alt="VALRISE Consulting" width="800" height="168"></a>
+      <nav class="desktop-nav" aria-label="Primary"><a href="/about/">About</a><a href="/consulting/">Consulting</a><a href="/speaking/">Speaking</a></nav>
+      <a class="button header-cta" aria-current="page" href="/contact/">Book a consultation</a>
+      <details class="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/about/">About</a><a href="/consulting/">Consulting</a><a href="/speaking/">Speaking</a></nav></details>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="shell contact-layout">
+        <div><h1>Begin with the decision or transition in front of you.</h1><p class="lead">Share a little about your situation and the kind of conversation that would be useful. For an event or organization, choose Speaking inquiry.</p></div>
+        <form class="form" data-inquiry-form novalidate>
+          <p class="form-status" data-form-status role="status" aria-live="polite">Checking inquiry availability…</p>
+          <fieldset class="form-fields" disabled>
+            <div class="form-grid">
+              <div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" required></div>
+              <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+              <div class="field"><label for="organization">Organization</label><input id="organization" name="organization" autocomplete="organization"></div>
+              <div class="field"><label for="inquiryType">Inquiry type *</label><select id="inquiryType" name="inquiryType" required><option value="consultation">Consultation</option><option value="speaking">Speaking inquiry</option></select></div>
+              <div class="field field--wide"><label for="interest">Area of interest</label><select id="interest" name="interest"><option value="">Select an area</option><option value="executive-advisory">Executive advisory</option><option value="leadership-development">Leadership development</option><option value="womens-leadership">Women’s leadership</option><option value="speaking">Speaking</option></select></div>
+              <div class="field field--wide"><label for="context">What would be useful to discuss? *</label><textarea id="context" name="context" required></textarea></div>
+              <div class="honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+            </div>
+            <button class="button" type="submit" disabled>Send inquiry</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell"><div class="footer-grid"><div><img class="footer-brand" src="/assets/brand/valrise-full-reverse.svg" alt="VALRISE Consulting — Your Next Level Starts Here" width="1200" height="336"><p>Executive advisory, leadership development, and speaking for leaders navigating what comes next.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="/about/">About</a><a href="/consulting/">Consulting</a><a href="/speaking/">Speaking</a></nav><div><h3>Begin a conversation</h3><p><a aria-current="page" href="/contact/">Book a consultation</a><br><a href="/contact/?inquiry=speaking">Invite Valeria to speak</a></p></div></div><div class="footer-bottom"><span>© 2026 VALRISE Consulting.</span><span>Preview environment</span></div></div></footer>
+</body>
+</html>
